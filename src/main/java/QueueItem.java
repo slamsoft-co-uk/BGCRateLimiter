@@ -2,8 +2,8 @@ import java.time.LocalDateTime;
 
 public class QueueItem {
 
-    private Integer item;
-    private LocalDateTime dateTime;
+    private final Integer item;
+    private final LocalDateTime dateTime;
 
     public QueueItem(Integer item, LocalDateTime dateTime) {
         this.item = item;
